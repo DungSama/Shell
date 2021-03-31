@@ -1,6 +1,5 @@
 #!/bin/bash
-for (( counter=10; counter>0; counter-- ))
+for num in {1..10}
 do
-echo -n "$counter "
+ echo "Number: $num"
 done
-printf "\n"
